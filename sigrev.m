@@ -8,7 +8,7 @@ function [r, newN] = sigrev(x,t,n,show_plot)
 %       show_plot = bool to show_plot or not
 %% Output:
 %       r = updated signal sequence data in reverse
-%       newN = updated index of current time wrt to s
+%       newN = updated current time wrt to r
 %% Source code:
     % To reverse: Flip the signal from left to right
     r = fliplr(x);
